@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pixelar
+            <img src="imagenes/pngwing.com.png" />
+        </h1>
+
+    </header>
+
+    <div class="container-inputs">
+        <label for="columnas">Columnas</label>
+        <input type="number" id="columnas-input">
+        <label for="filas">Filas</label>
+        <input type="number" id="filas-input">
+        <label for="tamaño">Tamaño</label>
+        <input type="number" id="tamanio">
+        <label for="">Color Grilla</label>
+        <input type="color" id="color-input">
+        <label for="">Color Fondo</label>
+        <input type="color" id="color-fondo">
+        <button id="boton-generar">Reiniciar</button>
+        <br>
+        <br>
+        <button id="boton-lapiz"></button>
+        <button id="boton-goma"></button>
+        <br>
+        <br>
+        <label for="borde">Borde</label>
+        <input type="checkbox" id="borde" checked>
+
+    </div>
+
+    <div id="container" class="grid-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

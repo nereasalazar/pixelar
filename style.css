@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+img {
+  width: 38px;
+  height: 38px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  outline: none;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.grid-container {
+  margin-top: 50px;
+  display: inline-grid;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  margin: -20px 0 0 -20px;
+  /* grid-template-columns: repeat(20, 1fr); */
+}
+
+.caja {
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.seleccionado {
+  background-color: aquamarine;
+}
+
+.botonLapiz {
+  width: 50px;
+  height: 50px;
+  background-image: url(imagenes/pencil.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  outline: none;
+}
+
+.botonGoma {
+  width: 50px;
+  height: 50px;
+  background-image: url(imagenes/eraser.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  outline: none;
+}
+
+label {
+  font-size: 20px;
+  margin: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: fantasy;
+  margin: 10px;
+  position: relative;
+}
